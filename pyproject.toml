@@ -1,0 +1,17 @@
+[project]
+name = "yexaaintelliwrite"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.117.1",
+    "langchain>=0.3.27",
+    "langchain-cli[inmem]>=0.0.37",
+    "langchain-community>=0.3.29",
+    "langchain-core>=0.3.76",
+    "langchain-groq>=0.3.8",
+    "langgraph>=0.6.7",
+    "uvicorn>=0.37.0",
+    "watchdog>=6.0.0",
+]
